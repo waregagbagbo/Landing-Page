@@ -3,7 +3,7 @@ A landing page of the Odin Project
 
 # Global color and fonts Resources
 **dark background color (hero and footer)**
-
+#1F2937
 **hero main text (" this website is awesome)**
 8 px extra-bold  #F9FAF8
 
