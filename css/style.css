@@ -3,15 +3,16 @@
     padding: 0;
     box-sizing: border-box; 
 }
+
 #logo{
     padding:20px;
-    margin-left:30px;
-    font-size:24px;
+    margin-left:90px;
+    font-size:30px;
     color:#F9FAF8;
 }
 section{
     background-color:#1F2937;
-    height:500px;   
+    height:600px;   
 }
 ul{
     color:#fff;
@@ -19,7 +20,7 @@ ul{
     padding:0px 30px 10px;
     text-align:right;
     margin-right:100px;
-    bottom:40px;
+    bottom:45px;
     font-size:20px;
    
 }
@@ -73,12 +74,12 @@ p{
   
 }
 #image{
-    height:300px;
-    width:600px;
+    height:350px;
+    width:400px;
     margin-left:-40px;
-    border-radius:30px;
-    padding:20px;
-    position:absolute;
+    border-radius:10px;
+    padding:10px;
+    position:relative;
 }
 #section2{
     text-align:center;
@@ -95,7 +96,8 @@ p{
     display:flex;
     flex-direction:row;
     justify-content:center;
-    row-gap:40;
+    align-items:center;
+    flex-wrap:nowrap;
     
 }
 #odin{
@@ -103,6 +105,8 @@ p{
     height:150px;
     border:solid 3px #3882F6;
     border-radius:10px;
+    height:150px;
+    width:150px;
 }
 #odin-para{
     font-size:18px;
@@ -111,7 +115,8 @@ p{
 
 }
 .box1 .box2 .box4 .box3{
-    padding:20px;     
+    padding:20px;
+
 
 }
 .quote-2{
@@ -150,7 +155,7 @@ section3{
     flex-direction:row;
     margin:40px 120px;
     background-color:#3882F6;
-    width:80%;
+    width:70%;
     border-radius:10px;
 }
 #call{
@@ -158,14 +163,14 @@ section3{
     padding:20px 50px;
 }
   .butt2{
-      padding:30px;
+      padding:40px;
       position:relative;
-      right:-60px;     
+      right:-30px;     
   } 
   #bts{
       background-color:#3882F6;
-      padding:10px;
-      width:170px;
+      padding:20px;
+      width:150px;
       border-style:none;
       border:solid 2px #fff;
       border-radius:10px;
@@ -174,7 +179,7 @@ section3{
   }
   footer{
       background-color:#1F2937;
-      padding:40px;
+      padding:20px;
   }
   #footext{
       color:#fff;
