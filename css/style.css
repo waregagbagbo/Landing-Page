@@ -4,6 +4,7 @@
     box-sizing: border-box;
  
 }
+html
 section{
     background-color:#1F2937;
     height:500px;   
@@ -11,17 +12,16 @@ section{
 ul{
     color:#fff;
     position:relative;
-    padding:2px 4px 10px;
+    padding:2px 30px 10px;
     text-align:right;
+    margin-right:100px;
    
 }
 ul li{
     list-style-type:none;
     text-decoration: none;
-    padding:0px;
-    display:inline-block; 
-    margin-right:70px;
-    
+    display:inline-block;
+    padding:0px 30px;
 }
 .hero{
    display:flex;
@@ -38,42 +38,50 @@ ul li{
     top:-30px;
 }
 h2{
-    font-family:roboto;
-    font-size:60px;
+    margin:20px;
+    font-size:40px;
+    color:#F9FAF8;
+    font-weight:bold;
+    top:50px;
 }
 p{
     padding:10px;
+    margin: 20px;
     font-size:20px;
+    font-weight:400px;
 }
 #btn{
     background-color:#3882F6;
-    padding:15px;
+    padding:20px;
     border-radius:5px;
-    text-decoration-style: none;
+    text-decoration-style:none;
     border:none;
-    font-size: 15px;
-    margin:10px;
-    top:30px;
+    font-size:15px;
+    margin:20px;
+    width:40%;
+    color:#F9FAF8;
+  
 }
 #image{
     height:300px;
     width:600px;
     margin-left:-40px;
-    border-radius:20px;
+    border-radius:30px;
     padding:20px;
     position:absolute;
 }
 #section2{
     text-align:center;
-    margin:20px;
+    margin:10px;
     padding:20px;
     font-size:35px;
     top:20px;
+    color:#1F2937;
 }
 .boxes{
-    margin:30px 80px;
+    margin:0px 80px;
     top:-30px;
-    padding:50px;
+    padding:30px;
     display:flex;
     flex-direction:row;
     justify-content:center;
@@ -87,11 +95,15 @@ p{
     border-radius:10px;
 }
 #odin-para{
-    font-size:20px;
+    font-size:18px;
+    text-align:left;
+    margin-left:-10px;
 
 }
 .box1 .box2 .box4 .box3{
-    padding:20px;   
+    padding:20px; 
+    margin-right:60px; 
+    
 
 }
 .quote-2{
